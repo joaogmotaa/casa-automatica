@@ -32,7 +32,7 @@ def deletar_repositorio(repo):
 todos_os_repos = listar_repositorios()
 repos_para_deletar = [repo for repo in todos_os_repos if repo not in REPOSITORIOS_PARA_MANTER]
 
-print("🔎 Repositórios que serão deletados:")
+print(" Repositórios que serão deletados:")
 for repo in repos_para_deletar:
     print(f'  - {repo}')
 
